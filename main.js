@@ -25,7 +25,7 @@ const handleQuiz = e => {
         if (checkIfCorrect) {
             answerBox.classList.add('correct')
             answerBox.classList.remove('incorrect')
-        } else {
+        } else{
             answerBox.classList.add('incorrect')
             answerBox.classList.remove('correct')
         }
@@ -33,12 +33,12 @@ const handleQuiz = e => {
 
     if (isTrue && allChecked) {
         modal.classList.add('modal-active')
-        modalInfo.textContent = 'Brawo! Udało ci się odpowiedzieć poprawnie na wszystkie odpowiedzi!'
-    } else {
+        modalInfo.textContent = 'Brawo! Udało ci się odpowiedzieć poprawnie na wszystkie pytania!'
+    } 
+    else {
         modal.classList.add('modal-active')
         modalInfo.textContent = 'Niestety przegrywasz nie udało ci się udzielić poprawnych odpowiedzi'
     }
-
 }
 
 const closeModal = () => {

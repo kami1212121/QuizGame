@@ -72,9 +72,9 @@ button:hover{
     top: 13px;
     right: 13px;
 }
-.incorrect{
-    color:red;
-}
 .correct{
     color:yellowgreen;
+}
+.incorrect{
+    color:red;
 }
